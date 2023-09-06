@@ -27,6 +27,7 @@ extern crate lazy_static;
 
 pub mod bound;
 pub mod color;
+mod colorcet_cmaps;
 pub mod colormap;
 pub mod colorpoint;
 pub mod colors;
