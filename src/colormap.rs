@@ -4,6 +4,7 @@
 //! visualization everywhere.
 
 use color::{Color, RGBColor};
+use colorcet_cmaps;
 use colorpoint::ColorPoint;
 use coord::Coord;
 use matplotlib_cmaps;
@@ -270,498 +271,498 @@ impl ListedColorMap {
         ListedColorMap { vals }
     }
 
-    pub fn linear_tritanopic_kcw_5_95_c22() -> ListedColorMap() {
+    pub fn linear_tritanopic_kcw_5_95_c22() -> ListedColorMap {
         let vals = colorcet_cmaps::LINEAR_TRITANOPIC_KCW_5_95_C22_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn linear_wcmr_100_45_c42() -> ListedColorMap() {
+    pub fn linear_wcmr_100_45_c42() -> ListedColorMap {
         let vals = colorcet_cmaps::LINEAR_WCMR_100_45_C42_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn linear_kgy_5_95_c69() -> ListedColorMap() {
+    pub fn linear_kgy_5_95_c69() -> ListedColorMap {
         let vals = colorcet_cmaps::LINEAR_KGY_5_95_C69_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn linear_grey_10_95_c0() -> ListedColorMap() {
+    pub fn linear_grey_10_95_c0() -> ListedColorMap {
         let vals = colorcet_cmaps::LINEAR_GREY_10_95_C0_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn linear_protanopic_deuteranopic_kbw_5_95_c34() -> ListedColorMap() {
+    pub fn linear_protanopic_deuteranopic_kbw_5_95_c34() -> ListedColorMap {
         let vals = colorcet_cmaps::LINEAR_PROTANOPIC_DEUTERANOPIC_KBW_5_95_C34_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn linear_kbgyw_10_98_c63() -> ListedColorMap() {
+    pub fn linear_kbgyw_10_98_c63() -> ListedColorMap {
         let vals = colorcet_cmaps::LINEAR_KBGYW_10_98_C63_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn linear_tritanotopic_krjcw_5_95_c24() -> ListedColorMap() {
-        let vals = colorcet_cmaps::LINEAR_TRITANOTOPIC_KRJCW_5_95_C24_DATA.to_vec();
+    pub fn linear_tritanotopic_krjcw_5_95_c24() -> ListedColorMap {
+        let vals = colorcet_cmaps::LINEAR_TRITANOPIC_KRJCW_5_95_C24_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn linear_kbc_5_95_c73() -> ListedColorMap() {
+    pub fn linear_kbc_5_95_c73() -> ListedColorMap {
         let vals = colorcet_cmaps::LINEAR_KBC_5_95_C73_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn linear_wyor_100_45_c55() -> ListedColorMap() {
+    pub fn linear_wyor_100_45_c55() -> ListedColorMap {
         let vals = colorcet_cmaps::LINEAR_WYOR_100_45_C55_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn linear_ternary_green_0_46_c42() -> ListedColorMap() {
+    pub fn linear_ternary_green_0_46_c42() -> ListedColorMap {
         let vals = colorcet_cmaps::LINEAR_TERNARY_GREEN_0_46_C42_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn linear_kryw_5_100_c64() -> ListedColorMap() {
+    pub fn linear_kryw_5_100_c64() -> ListedColorMap {
         let vals = colorcet_cmaps::LINEAR_KRYW_5_100_C64_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn linear_bgyw_15_100_c68() -> ListedColorMap() {
+    pub fn linear_bgyw_15_100_c68() -> ListedColorMap {
         let vals = colorcet_cmaps::LINEAR_BGYW_15_100_C68_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn linear_bmw_5_95_c86() -> ListedColorMap() {
+    pub fn linear_bmw_5_95_c86() -> ListedColorMap {
         let vals = colorcet_cmaps::LINEAR_BMW_5_95_C86_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn linear_grey_0_100_c0() -> ListedColorMap() {
+    pub fn linear_grey_0_100_c0() -> ListedColorMap {
         let vals = colorcet_cmaps::LINEAR_GREY_0_100_C0_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn linear_bmy_10_95_c71() -> ListedColorMap() {
+    pub fn linear_bmy_10_95_c71() -> ListedColorMap {
         let vals = colorcet_cmaps::LINEAR_BMY_10_95_C71_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn linear_protanopic_deuteranopic_kbjyw_5_95_c25() -> ListedColorMap() {
+    pub fn linear_protanopic_deuteranopic_kbjyw_5_95_c25() -> ListedColorMap {
         let vals = colorcet_cmaps::LINEAR_PROTANOPIC_DEUTERANOPIC_KBJYW_5_95_C25_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn linear_kry_5_98_c75() -> ListedColorMap() {
+    pub fn linear_kry_5_98_c75() -> ListedColorMap {
         let vals = colorcet_cmaps::LINEAR_KRY_5_98_C75_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn linear_blue_95_50_c20() -> ListedColorMap() {
+    pub fn linear_blue_95_50_c20() -> ListedColorMap {
         let vals = colorcet_cmaps::LINEAR_BLUE_95_50_C20_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn linear_ternary_red_0_50_c52() -> ListedColorMap() {
+    pub fn linear_ternary_red_0_50_c52() -> ListedColorMap {
         let vals = colorcet_cmaps::LINEAR_TERNARY_RED_0_50_C52_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn linear_tritanotopic_krw_5_95_c46() -> ListedColorMap() {
+    pub fn linear_tritanotopic_krw_5_95_c46() -> ListedColorMap {
         let vals = colorcet_cmaps::LINEAR_TRITANOPIC_KRW_5_95_C46_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn linear_kry_0_97_c73() -> ListedColorMap() {
+    pub fn linear_kry_0_97_c73() -> ListedColorMap {
         let vals = colorcet_cmaps::LINEAR_KRY_0_97_C73_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn linear_bgyw_20_95_c57() -> ListedColorMap() {
-        let vals = colorcet_cmaps::LINEAR_BGYW_20_95_C57_DATA.to_vec();
+    pub fn linear_kgboy_20_95_c57() -> ListedColorMap {
+        let vals = colorcet_cmaps::LINEAR_KBGOY_20_95_C57_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn linear_kgboy_20_95_c57() -> ListedColorMap() {
-        let vals = colorcet_cmaps::LINEAR_KGBOY_20_95_C57_DATA.to_vec();
-        ListedColorMap { vals }
-    }
-
-    pub fn linear_kry_5_95_c72() -> ListedColorMap() {
+    pub fn linear_kry_5_95_c72() -> ListedColorMap {
         let vals = colorcet_cmaps::LINEAR_KRY_5_95_C72_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn linear_worb_100_25_c53() -> ListedColorMap() {
+    pub fn linear_worb_100_25_c53() -> ListedColorMap {
         let vals = colorcet_cmaps::LINEAR_WORB_100_25_C53_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn linear_kryw_0_100_c71() -> ListedColorMap() {
+    pub fn linear_kryw_0_100_c71() -> ListedColorMap {
         let vals = colorcet_cmaps::LINEAR_KRYW_0_100_C71_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn linear_bmw_5_95_c89() -> ListedColorMap() {
+    pub fn linear_bmw_5_95_c89() -> ListedColorMap {
         let vals = colorcet_cmaps::LINEAR_BMW_5_95_C89_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn linear_tritanopic_krjcw_5_98_c46() -> ListedColorMap() {
+    pub fn linear_tritanopic_krjcw_5_98_c46() -> ListedColorMap {
         let vals = colorcet_cmaps::LINEAR_TRITANOPIC_KRJCW_5_98_C46_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn linear_kbgyw_5_98_c62() -> ListedColorMap() {
+    pub fn linear_kbgyw_5_98_c62() -> ListedColorMap {
         let vals = colorcet_cmaps::LINEAR_KBGYW_5_98_C62_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn linear_protanopic_deuteranopic_kyw_5_95_c49() -> ListedColorMap() {
+    pub fn linear_protanopic_deuteranopic_kyw_5_95_c49() -> ListedColorMap {
         let vals = colorcet_cmaps::LINEAR_PROTANOPIC_DEUTERANOPIC_KYW_5_95_C49_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn linear_gow_60_85_c27() -> ListedColorMap() {
+    pub fn linear_gow_60_85_c27() -> ListedColorMap {
         let vals = colorcet_cmaps::LINEAR_GOW_60_85_C27_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn linear_bmy_10_95_c78() -> ListedColorMap() {
+    pub fn linear_bmy_10_95_c78() -> ListedColorMap {
         let vals = colorcet_cmaps::LINEAR_BMY_10_95_C78_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn linear_gow_65_90_c35() -> ListedColorMap() {
+    pub fn linear_gow_65_90_c35() -> ListedColorMap {
         let vals = colorcet_cmaps::LINEAR_GOW_65_90_C35_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn diverging_linear_protanopic_deuteranopic_bjy_57_89_c34() -> ListedColorMap() {
+    pub fn diverging_linear_protanopic_deuteranopic_bjy_57_89_c34() -> ListedColorMap {
         let vals =
             colorcet_cmaps::DIVERGING_LINEAR_PROTANOPIC_DEUTERANOPIC_BJY_57_89_C34_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn linear_ternary_blue_0_44_c57() -> ListedColorMap() {
+    pub fn linear_ternary_blue_0_44_c57() -> ListedColorMap {
         let vals = colorcet_cmaps::LINEAR_TERNARY_BLUE_0_44_C57_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn linear_protanopic_deuteranopic_kbw_5_98_c40() -> ListedColorMap() {
+    pub fn linear_protanopic_deuteranopic_kbw_5_98_c40() -> ListedColorMap {
         let vals = colorcet_cmaps::LINEAR_PROTANOPIC_DEUTERANOPIC_KBW_5_98_C40_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn diverging_linear_bjr_30_55_c53() -> ListedColorMap() {
+    pub fn diverging_linear_bjr_30_55_c53() -> ListedColorMap {
         let vals = colorcet_cmaps::DIVERGING_LINEAR_BJR_30_55_C53_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn linear_bgyw_20_98_c66() -> ListedColorMap() {
+    pub fn linear_bgyw_15_100_c67() -> ListedColorMap {
+        let vals = colorcet_cmaps::LINEAR_BGYW_15_100_C67_DATA.to_vec();
+        ListedColorMap { vals }
+    }
+
+    pub fn linear_bgyw_20_98_c66() -> ListedColorMap {
         let vals = colorcet_cmaps::LINEAR_BGYW_20_98_C66_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn linear_bgy_10_95_c74() -> ListedColorMap() {
+    pub fn linear_bgy_10_95_c74() -> ListedColorMap {
         let vals = colorcet_cmaps::LINEAR_BGY_10_95_C74_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn linear_kryw_5_100_c67() -> ListedColorMap() {
+    pub fn linear_kryw_5_100_c67() -> ListedColorMap {
         let vals = colorcet_cmaps::LINEAR_KRYW_5_100_C67_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn diverging_linear_bjy_30_90_c45() -> ListedColorMap() {
+    pub fn diverging_linear_bjy_30_90_c45() -> ListedColorMap {
         let vals = colorcet_cmaps::DIVERGING_LINEAR_BJY_30_90_C45_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn diverging_tritanopic_cwr_75_98_c20() -> ListedColorMap() {
+    pub fn diverging_tritanopic_cwr_75_98_c20() -> ListedColorMap {
         let vals = colorcet_cmaps::DIVERGING_TRITANOPIC_CWR_75_98_C20_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn diverging_isoluminant_cjm_75_c23() -> ListedColorMap() {
+    pub fn diverging_isoluminant_cjm_75_c23() -> ListedColorMap {
         let vals = colorcet_cmaps::DIVERGING_ISOLUMINANT_CJM_75_C23_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn diverging_bky_60_10_c30() -> ListedColorMap() {
+    pub fn diverging_bky_60_10_c30() -> ListedColorMap {
         let vals = colorcet_cmaps::DIVERGING_BKY_60_10_C30_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn diverging_bwr_40_95_c42() -> ListedColorMap() {
+    pub fn diverging_bwr_40_95_c42() -> ListedColorMap {
         let vals = colorcet_cmaps::DIVERGING_BWR_40_95_C42_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn diverging_gkr_60_10_c40() -> ListedColorMap() {
+    pub fn diverging_gkr_60_10_c40() -> ListedColorMap {
         let vals = colorcet_cmaps::DIVERGING_GKR_60_10_C40_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn diverging_gwv_55_95_c39() -> ListedColorMap() {
+    pub fn diverging_gwv_55_95_c39() -> ListedColorMap {
         let vals = colorcet_cmaps::DIVERGING_GWV_55_95_C39_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn diverging_bwr_55_98_c37() -> ListedColorMap() {
+    pub fn diverging_bwr_55_98_c37() -> ListedColorMap {
         let vals = colorcet_cmaps::DIVERGING_BWR_55_98_C37_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn diverging_rainbow_bgymr_45_85_c67() -> ListedColorMap() {
+    pub fn diverging_rainbow_bgymr_45_85_c67() -> ListedColorMap {
         let vals = colorcet_cmaps::DIVERGING_RAINBOW_BGYMR_45_85_C67_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn diverging_isoluminant_cjo_70_c25() -> ListedColorMap() {
+    pub fn diverging_isoluminant_cjo_70_c25() -> ListedColorMap {
         let vals = colorcet_cmaps::DIVERGING_ISOLUMINANT_CJO_70_C25_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn diverging_isoluminant_cjm_75_c24() -> ListedColorMap() {
+    pub fn diverging_isoluminant_cjm_75_c24() -> ListedColorMap {
         let vals = colorcet_cmaps::DIVERGING_ISOLUMINANT_CJM_75_C24_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn diverging_bkr_55_10_c35() -> ListedColorMap() {
+    pub fn diverging_bkr_55_10_c35() -> ListedColorMap {
         let vals = colorcet_cmaps::DIVERGING_BKR_55_10_C35_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn diverging_bwr_20_95_c54() -> ListedColorMap() {
+    pub fn diverging_bwr_20_95_c54() -> ListedColorMap {
         let vals = colorcet_cmaps::DIVERGING_BWR_20_95_C54_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn diverging_protanopic_deuteranopic_bwy_60_95_c32() -> ListedColorMap() {
+    pub fn diverging_protanopic_deuteranopic_bwy_60_95_c32() -> ListedColorMap {
         let vals = colorcet_cmaps::DIVERGING_PROTANOPIC_DEUTERANOPIC_BWY_60_95_C32_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn diverging_cwm_80_100_c22() -> ListedColorMap() {
+    pub fn diverging_cwm_80_100_c22() -> ListedColorMap {
         let vals = colorcet_cmaps::DIVERGING_CWM_80_100_C22_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn diverging_gwr_55_95_c38() -> ListedColorMap() {
+    pub fn diverging_gwr_55_95_c38() -> ListedColorMap {
         let vals = colorcet_cmaps::DIVERGING_GWR_55_95_C38_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn diverging_bwg_20_95_c41() -> ListedColorMap() {
+    pub fn diverging_bwg_20_95_c41() -> ListedColorMap {
         let vals = colorcet_cmaps::DIVERGING_BWG_20_95_C41_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn cyclic_rygcbmr_50_90_c64() -> ListedColorMap() {
+    pub fn cyclic_rygcbmr_50_90_c64() -> ListedColorMap {
         let vals = colorcet_cmaps::CYCLIC_RYGCBMR_50_90_C64_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn cyclic_mybm_20_100_c48_s25() -> ListedColorMap() {
+    pub fn cyclic_mybm_20_100_c48_s25() -> ListedColorMap {
         let vals = colorcet_cmaps::CYCLIC_MYBM_20_100_C48_S25_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn cyclic_bgrmb_35_70_c75_s25() -> ListedColorMap() {
+    pub fn cyclic_bgrmb_35_70_c75_s25() -> ListedColorMap {
         let vals = colorcet_cmaps::CYCLIC_BGRMB_35_70_C75_S25_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn cyclic_wrkbw_10_90_c43() -> ListedColorMap() {
+    pub fn cyclic_wrkbw_10_90_c43() -> ListedColorMap {
         let vals = colorcet_cmaps::CYCLIC_WRKBW_10_90_C43_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn cyclic_bgrmb_35_70_c75() -> ListedColorMap() {
+    pub fn cyclic_bgrmb_35_70_c75() -> ListedColorMap {
         let vals = colorcet_cmaps::CYCLIC_BGRMB_35_70_C75_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn cyclic_mygbm_50_90_c46() -> ListedColorMap() {
+    pub fn cyclic_mygbm_50_90_c46() -> ListedColorMap {
         let vals = colorcet_cmaps::CYCLIC_MYGBM_50_90_C46_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn cyclic_tritanopic_cwrk_40_100_c20() -> ListedColorMap() {
+    pub fn cyclic_tritanopic_cwrk_40_100_c20() -> ListedColorMap {
         let vals = colorcet_cmaps::CYCLIC_TRITANOPIC_CWRK_40_100_C20_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn cyclic_mrybm_35_75_c68() -> ListedColorMap() {
+    pub fn cyclic_mrybm_35_75_c68() -> ListedColorMap {
         let vals = colorcet_cmaps::CYCLIC_MRYBM_35_75_C68_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn cyclic_ymcgy_60_90_c67() -> ListedColorMap() {
+    pub fn cyclic_ymcgy_60_90_c67() -> ListedColorMap {
         let vals = colorcet_cmaps::CYCLIC_YMCGY_60_90_C67_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn cyclic_mygbm_50_90_c46_s25() -> ListedColorMap() {
+    pub fn cyclic_mygbm_50_90_c46_s25() -> ListedColorMap {
         let vals = colorcet_cmaps::CYCLIC_MYGBM_50_90_C46_S25_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn cyclic_mygbm_30_95_c78_s25() -> ListedColorMap() {
+    pub fn cyclic_mygbm_30_95_c78_s25() -> ListedColorMap {
         let vals = colorcet_cmaps::CYCLIC_MYGBM_30_95_C78_S25_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn cyclic_mygbm_30_95_c78() -> ListedColorMap() {
+    pub fn cyclic_mygbm_30_95_c78() -> ListedColorMap {
         let vals = colorcet_cmaps::CYCLIC_MYGBM_30_95_C78_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn cyclic_protanopic_deuteranopic_bw_yk_16_96_c31() -> ListedColorMap() {
-        let vals = colorcet_cmaps::CYCLIC_PROTANOPIC_DEUTERANOPIC_BW_YK_16_96_C31_DATA.to_vec();
+    pub fn cyclic_protanopic_deuteranopic_bw_yk_16_96_c31() -> ListedColorMap {
+        let vals = colorcet_cmaps::CYCLIC_PROTANOPIC_DEUTERANOPIC_BWYK_16_96_C31_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn cyclic_tritanopic_wrwc_70_100_c20() -> ListedColorMap() {
+    pub fn cyclic_tritanopic_wrwc_70_100_c20() -> ListedColorMap {
         let vals = colorcet_cmaps::CYCLIC_TRITANOPIC_WRWC_70_100_C20_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn cyclic_mrybm_35_75_c68_s25() -> ListedColorMap() {
+    pub fn cyclic_mrybm_35_75_c68_s25() -> ListedColorMap {
         let vals = colorcet_cmaps::CYCLIC_MRYBM_35_75_C68_S25_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn cyclic_rygcbmr_50_90_c64_s25() -> ListedColorMap() {
+    pub fn cyclic_rygcbmr_50_90_c64_s25() -> ListedColorMap {
         let vals = colorcet_cmaps::CYCLIC_RYGCBMR_50_90_C64_S25_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn cyclic_protanopic_deuteranopic_wywb_55_96_c33() -> ListedColorMap() {
+    pub fn cyclic_protanopic_deuteranopic_wywb_55_96_c33() -> ListedColorMap {
         let vals = colorcet_cmaps::CYCLIC_PROTANOPIC_DEUTERANOPIC_WYWB_55_96_C33_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn cyclic_wrkbw_10_90_c43_s25() -> ListedColorMap() {
+    pub fn cyclic_wrkbw_10_90_c43_s25() -> ListedColorMap {
         let vals = colorcet_cmaps::CYCLIC_WRKBW_10_90_C43_S25_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn cyclic_wrwbw_40_90_c42_s25() -> ListedColorMap() {
+    pub fn cyclic_wrwbw_40_90_c42_s25() -> ListedColorMap {
         let vals = colorcet_cmaps::CYCLIC_WRWBW_40_90_C42_S25_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn cyclic_grey_15_85_c0_s25() -> ListedColorMap() {
+    pub fn cyclic_grey_15_85_c0_s25() -> ListedColorMap {
         let vals = colorcet_cmaps::CYCLIC_GREY_15_85_C0_S25_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn cyclic_ymcgy_60_90_c67_s25() -> ListedColorMap() {
+    pub fn cyclic_ymcgy_60_90_c67_s25() -> ListedColorMap {
         let vals = colorcet_cmaps::CYCLIC_YMCGY_60_90_C67_S25_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn cyclic_grey_15_85_c0() -> ListedColorMap() {
+    pub fn cyclic_grey_15_85_c0() -> ListedColorMap {
         let vals = colorcet_cmaps::CYCLIC_GREY_15_85_C0_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn cyclic_mybm_20_100_c48() -> ListedColorMap() {
+    pub fn cyclic_mybm_20_100_c48() -> ListedColorMap {
         let vals = colorcet_cmaps::CYCLIC_MYBM_20_100_C48_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn cyclic_wrwbw_40_90_c42() -> ListedColorMap() {
+    pub fn cyclic_wrwbw_40_90_c42() -> ListedColorMap {
         let vals = colorcet_cmaps::CYCLIC_WRWBW_40_90_C42_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn isoluminant_cgo_70_c39() -> ListedColorMap() {
+    pub fn isoluminant_cgo_70_c39() -> ListedColorMap {
         let vals = colorcet_cmaps::ISOLUMINANT_CGO_70_C39_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn isoluminant_cgo_80_c38() -> ListedColorMap() {
+    pub fn isoluminant_cgo_80_c38() -> ListedColorMap {
         let vals = colorcet_cmaps::ISOLUMINANT_CGO_80_C38_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn isoluminant_cm_70_c39() -> ListedColorMap() {
+    pub fn isoluminant_cm_70_c39() -> ListedColorMap {
         let vals = colorcet_cmaps::ISOLUMINANT_CM_70_C39_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn rainbow_bgyrm_35_85_c71() -> ListedColorMap() {
+    pub fn rainbow_bgyrm_35_85_c71() -> ListedColorMap {
         let vals = colorcet_cmaps::RAINBOW_BGYRM_35_85_C71_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn rainbow_bgyr_35_85_c73() -> ListedColorMap() {
+    pub fn rainbow_bgyr_35_85_c73() -> ListedColorMap {
         let vals = colorcet_cmaps::RAINBOW_BGYR_35_85_C73_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn rainbow_bgyr_35_85_c72() -> ListedColorMap() {
+    pub fn rainbow_bgyr_35_85_c72() -> ListedColorMap {
         let vals = colorcet_cmaps::RAINBOW_BGYR_35_85_C72_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn rainbow_bgyr_10_90_c83() -> ListedColorMap() {
+    pub fn rainbow_bgyr_10_90_c83() -> ListedColorMap {
         let vals = colorcet_cmaps::RAINBOW_BGYR_10_90_C83_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn rainbow_bgyrm_35_85_c69() -> ListedColorMap() {
+    pub fn rainbow_bgyrm_35_85_c69() -> ListedColorMap {
         let vals = colorcet_cmaps::RAINBOW_BGYRM_35_85_C69_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn glasbey_category10() -> ListedColorMap() {
+    pub fn glasbey_category10() -> ListedColorMap {
         let vals = colorcet_cmaps::GLASBEY_CATEGORY10_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn glasbey_bw_minc_20_minl_30() -> ListedColorMap() {
+    pub fn glasbey_bw_minc_20_minl_30() -> ListedColorMap {
         let vals = colorcet_cmaps::GLASBEY_BW_MINC_20_MINL_30_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn glasbey_bw_minc_20_hue_330_100() -> ListedColorMap() {
+    pub fn glasbey_bw_minc_20_hue_330_100() -> ListedColorMap {
         let vals = colorcet_cmaps::GLASBEY_BW_MINC_20_HUE_330_100_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn glasbey_bw_minc_20() -> ListedColorMap() {
+    pub fn glasbey_bw_minc_20() -> ListedColorMap {
         let vals = colorcet_cmaps::GLASBEY_BW_MINC_20_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn glasbey_bw() -> ListedColorMap() {
+    pub fn glasbey_bw() -> ListedColorMap {
         let vals = colorcet_cmaps::GLASBEY_BW_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn glasbey_bw_minc_20_maxl_70() -> ListedColorMap() {
+    pub fn glasbey_bw_minc_20_maxl_70() -> ListedColorMap {
         let vals = colorcet_cmaps::GLASBEY_BW_MINC_20_MAXL_70_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn glasbey_hv() -> ListedColorMap() {
+    pub fn glasbey_hv() -> ListedColorMap {
         let vals = colorcet_cmaps::GLASBEY_HV_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn glasbey_bw_minc_20_hue_150_280() -> ListedColorMap() {
+    pub fn glasbey_bw_minc_20_hue_150_280() -> ListedColorMap {
         let vals = colorcet_cmaps::GLASBEY_BW_MINC_20_HUE_150_280_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn circle_mgbm_67_c31_s25() -> ListedColorMap() {
+    pub fn circle_mgbm_67_c31_s25() -> ListedColorMap {
         let vals = colorcet_cmaps::CIRCLE_MGBM_67_C31_S25_DATA.to_vec();
         ListedColorMap { vals }
     }
 
-    pub fn circle_mgbm_67_c31() -> ListedColorMap() {
+    pub fn circle_mgbm_67_c31() -> ListedColorMap {
         let vals = colorcet_cmaps::CIRCLE_MGBM_67_C31_DATA.to_vec();
         ListedColorMap { vals }
     }
